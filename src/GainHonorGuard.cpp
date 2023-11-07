@@ -186,7 +186,7 @@ public:
         if (SplitInGroup && player->GetGroup())
             player->GetGroup()->DoForAllMembers([&](Player* groupMember)
                 {
-                    AddHonorToPlayer(player, killed, groupsize, v_level);
+                    AddHonorToPlayer(groupMember, killed, groupsize, v_level);
                 });
         else
             AddHonorToPlayer(player, killed, groupsize, v_level);
