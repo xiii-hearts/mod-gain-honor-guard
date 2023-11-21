@@ -74,4 +74,13 @@ GainHonorGuard.GainHonorRateEnable = 0
 
 GainHonorGuard.GainHonorRate = 1.0
 
+
+#
+#   SplitInGroup
+#   Splits honor between all currently online group members.
+#       Default : 0 (Disabled)
+#
+
+GainHonorGuard.SplitInGroup = 0
+
 ###################################################################################################
